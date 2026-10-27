@@ -44,6 +44,7 @@ body {
   font-family: 'Karla', sans-serif;
   display: grid;
   place-content: center;
+  color: var(--green);
   background-color: var(--pale-green);
 }
 
@@ -93,13 +94,13 @@ form {
   width: 100%;
   margin: 0.3rem;
   gap: 0.5rem;
-  border: 1px solid var(--dark-teal);
+  border: 1px solid var(--green);
   border-radius: 3px;
   padding: 0.2rem 0.5rem;
 }
 
 input[type='radio'] {
-  accent-color: var(--dark-teal);
+  accent-color: var(--green);
 }
 
 .radio-field:has([type='radio']:checked) {
@@ -119,7 +120,7 @@ button {
 
 button {
   color: var(--white);
-  background-color: var(--dark-teal);
+  background-color: var(--green);
   padding: 0.3rem 0;
   border: none;
   border-radius: 5px;
@@ -134,7 +135,7 @@ button {
 input,
 .radio-field input[type='radio'],
 textarea {
-  border: 1px solid var(--dark-teal);
+  border: 1px solid var(--green);
   border-radius: 3px;
 
   &:focus-visible {
@@ -144,13 +145,13 @@ textarea {
 
 label:has(+ input[required]:not([type='radio']))::after {
   content: '*';
-  color: var(--dark-teal);
+  color: var(--green);
 }
 
 /* Textarea */
 label:has(+ textarea[required])::after {
   content: '*';
-  color: var(--dark-teal);
+  color: var(--green);
 }
 
 /* Radio group legend */
@@ -163,7 +164,7 @@ label:has(+ textarea[required])::after {
 
   &::after {
     content: '*';
-    color: var(--dark-teal);
+    color: var(--green);
   }
 }
 
@@ -176,7 +177,7 @@ label:has(+ textarea[required])::after {
 /* Consent checkbox  */
 .consent-section:has(input[type='checkbox'][required]) label::after {
   content: '*';
-  color: var(--dark-teal);
+  color: var(--green);
 }
 
 /* Toast */
