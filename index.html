@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="module" src="./assets/js/script.mjs"></script>
+
+  <title>Frontend Mentor | Contact form</title>
+</head>
+
+<body>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <main>
+
+    <form novalidate>
+
+      <h1>Contact Us</h1>
+
+      <!-- first name section -->
+      <div class="first-name">
+        <label for="first-name">First name </label>
+        <input type="text" id="first-name" name="first-name" autocomplete="given-name" required
+          aria-describedby="first-name-error">
+        <span class="error-message" id="first-name-error"></span>
+      </div>
+      <!-- last name section -->
+      <div class="last-name">
+        <label for="last-name">Last name </label>
+        <input type="text" id="last-name" name="last-name" autocomplete="family-name" required
+          aria-describedby="last-name-error">
+        <span class="error-message" id="last-name-error"></span>
+      </div>
+
+      <!-- email section -->
+      <div class="email-section">
+        <label for="email">Email </label>
+        <input type="text" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+        <span class="error-message" id="email-error"></span>
+      </div>
+      <!-- radio buttons -->
+      <fieldset class="radio-section" aria-describedby="radio-error">
+        <legend>Query Type </legend>
+        <div class="radio-field">
+          <input type="radio" name="query" id="general" value="General Enquiry" required>
+          <label for="general">General Enquiry</label>
+        </div>
+        <div class="radio-field">
+          <input type="radio" name="query" id="support" value="Support Request">
+          <label for="support">Support Request</label>
+        </div>
+      </fieldset>
+      <span class="error-message" id="radio-error"></span>
+      <!-- textarea -->
+      <div class="textarea-section">
+        <label for="message">Message </label>
+        <textarea name="message" id="message" minlength="10" required aria-describedby="message-error"></textarea>
+        <span class="error-message" id="message-error"></span>
+      </div>
+      <!-- consent area -->
+      <div class="consent-section">
+        <input type="checkbox" name="consent" id="consent" required aria-describedby="consent-error">
+        <label for="consent">I consent to be being contacted by the team </label>
+      </div>
+      <span class="error-message " id="consent-error"></span>
+      <button id="submit">Submit</button>
+    </form>
+  </main>
+</body>
+
+</html>
