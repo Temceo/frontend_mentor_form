@@ -44,7 +44,7 @@ body {
   font-family: 'Karla', sans-serif;
   display: grid;
   place-content: center;
-  color: var(--green);
+  color: var(--dark-teal);
   background-color: var(--pale-green);
 }
 
