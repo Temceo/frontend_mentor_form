@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is my solution to the [Contact Form challenge on Frontend Mentor](https://www.frontendmentor.io/). My main goal was to strengthen my JavaScript skills by implementing form validation and to gain practical experience writing tests with Jest.
+This project is my solution to the [Contact Form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). My main goal was to strengthen my JavaScript skills by implementing form validation and to gain practical experience writing tests with Jest.
 
 I also focused on building an accessible, responsive form using semantic HTML and CSS Grid.
 
