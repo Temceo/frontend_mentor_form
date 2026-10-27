@@ -47,4 +47,13 @@ I would like to continue improving my automated testing, particularly by expandi
 
 ## Links
 
-- [View the source code on GitHub](https://github.com/Temceo/frontend_mentor_form)
+-
+
+[View the source code on GitHub](https://github.com/Temceo/frontend_mentor_form)
+[View the live site on netlify](https://mm-contactform.netlify.app/)
+
+## Screenshots
+
+![Screenshot of form](image.png)
+
+![Form with error messages](image-1.png)
